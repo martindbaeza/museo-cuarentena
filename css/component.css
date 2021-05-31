@@ -1,15 +1,15 @@
 body {
-	background: #f0f0f0;
-	background: -moz-linear-gradient(top, #f0f0f0 0%, #f0f0f0 85%, #3d3737 85%, #3d3737 100%);
-	background: -webkit-linear-gradient(top, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
-	background: -o-linear-gradient(top, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
-	background: -ms-linear-gradient(top, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
-	background: linear-gradient(to bottom, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
+	background: #8f8383;
+	background: -moz-linear-gradient(top, #bdb1b1 0%, #a09292 85%, #3d3737 85%, #3d3737 100%);
+	background: -webkit-linear-gradient(top, #a19191 0%,#afa1a1 85%,#3d3737 85%,#3d3737 100%);
+	background: -o-linear-gradient(top, #978e8e 0%,#a39494 85%,#3d3737 85%,#3d3737 100%);
+	background: -ms-linear-gradient(top, #b6a4a4 0%,#857979 85%,#3d3737 85%,#3d3737 100%);
+	background: linear-gradient(to bottom, #746868 0%,#8d7c7c 85%,#3d3737 85%,#3d3737 100%);
 }
 
 .no-js body {
 	overflow: auto;
-	background: #f0f0f0;
+	background: #948484;
 }
 
 .js .gr-gallery {
@@ -39,7 +39,7 @@ body {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	background: #f0f0f0 url(../images/wall.jpg) repeat 0px 0px;
+	background: #968a8a url(../images/wall.jpg) repeat 0px 0px;
 }
 
 .gr-wall-main {
@@ -73,10 +73,10 @@ body {
 	height: 150%;
 	top: -45%;
 	left: -40%;
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.7) 23%, rgba(255,255,255,0) 66%);
-	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.7) 23%, rgba(255,255,255,0) 66%);
-	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.7) 23%, rgba(255,255,255,0) 66%);
-	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.7) 23%, rgba(255,255,255,0) 66%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(133, 99, 99, 0.7) 23%, rgba(255,255,255,0) 66%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(177, 130, 130, 0.7) 23%, rgba(255,255,255,0) 66%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(163, 119, 119, 0.7) 23%, rgba(255,255,255,0) 66%);
+	background: radial-gradient(center, ellipse cover, rgba(163, 119, 119, 0.7) 23%, rgba(255,255,255,0) 66%);
 	pointer-events: none;
 	opacity: 0.5;
 }
@@ -98,16 +98,16 @@ body {
 .gr-gallery figure img {
 	display: block;
 	margin: 0 auto;
-	border: 20px solid #fff;
+	border: 20px solid rgb(201, 191, 191);
 }
 
 .gr-gallery figcaption {
-	width: 80px;
+	width: 100px;
 	display: block;
-	font-size: 5px;
-	background: #fff;
-	color: #444;
-	padding: 5px;
+	font-size: 6px;
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	padding: 7px;
 	margin-top: 20px;
 	position: relative;
 	text-align: left;
@@ -163,7 +163,7 @@ body {
 	left: 50%;
 	margin-left: -200px;
 	bottom: 0;
-	background: #fff;
+	background: rgb(255, 255, 255);
 	box-shadow: 0 -1px 3px rgba(0,0,0,0.3);
 	-webkit-transform: translateY(310px);
 	-webkit-transition: -webkit-transform .5s ease;
@@ -199,7 +199,7 @@ body {
 }
 
 .gr-caption-close:hover {
-	color: #555;
+	color: rgb(252, 247, 247);
 	box-shadow: 0 0 8px -1px rgba(0,0,0,0.6);
 }
 
